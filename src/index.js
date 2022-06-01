@@ -39,5 +39,6 @@ function draw(X, Y) {
   }
   context.lineWidth = 5;
   context.lineTo(X, Y);
+  context.strokeStyle = "red";
   context.stroke();
 }
